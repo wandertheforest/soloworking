@@ -3,8 +3,8 @@
 
 class Team {
 private:
-    char name[32];     // C-строка: массив символов + '\0' в конце
-    int  scores[3];    // массив как поле класса
+    char name[32];     
+    int  scores[3];    
 
 public:
     Team(const char* n, int a, int b, int c) {
@@ -23,8 +23,7 @@ public:
         return scores[0] + scores[1] + scores[2];
     }
 
-    // ТВОЯ ЗАДАЧА: дописать метод average()
-    // double average() const { ... }
+
 };
 
 int main() {
